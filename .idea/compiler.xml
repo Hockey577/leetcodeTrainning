@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leetcodeTrainning" />
         <module name="Trainning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="leetcodeTrainning" target="1.5" />
       <module name="Trainning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
