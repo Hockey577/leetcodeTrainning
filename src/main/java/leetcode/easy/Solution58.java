@@ -11,7 +11,7 @@ public class Solution58 {
             for (int i = s.length() - 1; i > -1; i--) {
                 if (s.charAt(i) == ' ') {
                     j++;
-                }else {
+                } else {
                     break;
                 }
             }

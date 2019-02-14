@@ -9,12 +9,12 @@ public class Solution61 {
             } else {
                 digits[i] = 0;
                 if (i != 0) {
-                    digits[i - 1] ++;
+                    digits[i - 1]++;
                 }
             }
         }
         int[] res = new int[digits.length + 1];
-        res[0]=1;
+        res[0] = 1;
         System.arraycopy(digits, 0, res, 1, digits.length);
         return res;
     }

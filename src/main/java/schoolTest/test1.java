@@ -23,13 +23,13 @@ public class test1 {
         //如果最小值是0
         if (min == 0) {
             System.out.print(1);
-            if (cnt[1]>0){
-                for (int i = 0;i<cnt[0]+1;i++){
+            if (cnt[1] > 0) {
+                for (int i = 0; i < cnt[0] + 1; i++) {
                     System.out.print(0);
                 }
             }
-        }else {
-            for (int i=0;i<cnt[min]+1;i++)
+        } else {
+            for (int i = 0; i < cnt[min] + 1; i++)
                 System.out.print(min);
         }
     }

@@ -1,4 +1,5 @@
 package leetcode.easy;
+
 import leetcode.easy.ListNode;
 import leetcode.easy.Solution83;
 
@@ -26,7 +27,7 @@ public class MainClass {
         nodeQueue.add(root);
 
         int index = 1;
-        while(!nodeQueue.isEmpty()) {
+        while (!nodeQueue.isEmpty()) {
             TreeNode node = nodeQueue.remove();
 
             if (index == parts.length) {

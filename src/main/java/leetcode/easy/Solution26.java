@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Solution26 {
     public int removeDuplicates(int[] nums) {
         int len = nums.length - 1;
-        for (int i = 0; i < len;i++) {
+        for (int i = 0; i < len; i++) {
             //如果当前数等于后一个数，那么从i之后的数全部往前移一位
             if (nums[i] == nums[i + 1]) {
                 for (int j = i; j < len; j++) {
@@ -19,7 +19,7 @@ public class Solution26 {
                 continue;
             }
         }
-        return len+1;
+        return len + 1;
     }
 }
 
