@@ -1,4 +1,4 @@
-package JianZhiOffer;
+package jianZhiOffer;
 
 /**
  * 请实现一个函数，将一个字符串中的每个空格替换成“%20”。

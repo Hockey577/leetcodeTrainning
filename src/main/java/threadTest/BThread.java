@@ -1,4 +1,4 @@
-package ThreadTest;
+package threadTest;
 
 public class BThread extends Thread {
     public BThread(){

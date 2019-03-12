@@ -1,4 +1,4 @@
-package JianZhiOffer;
+package jianZhiOffer;
 
 public class test4Temp {
     public TreeNode reConstructBinaryTree(int[] pre, int[] in) {

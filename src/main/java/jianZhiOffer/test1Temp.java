@@ -1,4 +1,4 @@
-package JianZhiOffer;
+package jianZhiOffer;
 
 public class test1Temp {
     public static boolean Find(int target, int[][] array) {
